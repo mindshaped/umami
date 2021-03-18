@@ -14,6 +14,7 @@ body {
   font-size: var(--font-size-normal);
   color: var(--gray900);
   background: var(--gray75);
+  overflow-y: overlay;
 }
 
 .zh-CN {
@@ -21,11 +22,16 @@ body {
 }
 
 .zh-TW {
-  font-family: 'Noto Sans SC', sans-serif !important;
+  font-family: 'Noto Sans TC', sans-serif !important;
 }
 
 .ja-JP {
   font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.he-IL {
+  display: inline-block;
+  direction: rtl;
 }
 
 *,
